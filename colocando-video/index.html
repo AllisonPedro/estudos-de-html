@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em html</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Esta video está hospedado no meu proprio servidor.</p>
+
+    <video preload="metadata" src="../media/Video_l.mp4" width="400" controls></video>
+
+
+    <video preload="metadata" controls width="400" poster="../media/limoes-capa.png">
+        <source src="../media/Video_l.mp4" type="video/mp4">
+        <source src="../media/Video_l.m4v" type="video/mp4">
+        <source src="../media/Video_l.webm" type="video/webm">
+        <source src="../media/Video_l.ogv" type="video/ogg">
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315"
+     src="https://www.youtube.com/embed/eF9Qoc6p_4Q" 
+    frameborder="0" allow="accelerometer; autoplay; 
+    clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    
+</body>
+</html>
